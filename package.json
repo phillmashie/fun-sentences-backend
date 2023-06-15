@@ -1,0 +1,26 @@
+{
+  "name": "fun-sentences-backend",
+  "version": "1.0.0",
+  "description": "A web application that allows you to dynamically build a sentence by selecting words based on their word types.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production nodemon server.js",
+    "fun-sentences-backend": "nodemon server.js"
+  },
+  "author": "Phillip Mashingaidze",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "md5": "^2.3.0",
+    "mssql": "^9.1.1",
+    "nodemon": "^2.0.22",
+    "pg": "^8.11.0",
+    "pg-pool": "^3.6.0",
+    "request": "^2.88.2"
+  }
+}
